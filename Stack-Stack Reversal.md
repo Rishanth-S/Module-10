@@ -21,9 +21,20 @@ To write a Python program that reverses the values in a stack using standard sta
 
 
 ### Program:
-Add Code Here
+```
+stack = [] 
+n=int(input())
+for i in range(n):
+value=int(input()) 
+stack.append(value)
+reverse= [] 
+while stack:
+reverse.append(stack.pop()) 
+print(reverse)
+```
 
 ## 🧪 Sample Input and Output
+<img width="381" height="224" alt="image" src="https://github.com/user-attachments/assets/fecbe3fd-2e68-489b-9d73-e2a3ebab97ce" />
 
 ## Result
-
+Thus the program has been successfully executed
