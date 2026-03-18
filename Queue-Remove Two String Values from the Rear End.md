@@ -21,8 +21,18 @@ To write a Python program to:
 6. Display the updated list.
 
 ##  Program:
-Add Code Here
+```
+q = []
+n=int(input())
+for i in range(n):
+q.append(input()) 
+q.pop(0)
+q.pop(0) 
+print(q)
+```
 
 ### Output:
+<img width="813" height="402" alt="image" src="https://github.com/user-attachments/assets/8be184c0-d6ed-4300-9062-f866808f64f3" />
 
 ## Result:
+Thus the program has been successfully executed
